@@ -2,6 +2,7 @@
 name = "alert-test"
 version = "0.0.0"
 edition = "2024"
+license  = "MIT OR Apache-2.0"
 description = "A crate for testing the alert macro from rust-alert."
 publish = false
 
