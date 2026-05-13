@@ -1,0 +1,20 @@
+[package]
+name = "rust-alert"
+version = "0.1.0"
+edition = "2024"
+authors = ["Nicholas Raynes"]
+description = "A simple library crate that defines an error type Alert for use in returning from a Result as an error."
+license  = "MIT OR Apache-2.0"
+repository = "https://github.com/nraynes/rust-alert"
+keywords = ["rust", "alert", "errors", "result", "development"]
+categories = ["development-tools"]
+include = [
+    "src/",
+    "Cargo.toml",
+    "LICENSES/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+]
+
+[dependencies]
