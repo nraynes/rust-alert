@@ -1,6 +1,6 @@
 [package]
 name = "rust-alert"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 authors = ["Nicholas Raynes"]
 description = "A simple library crate that defines an error type Alert for use in returning from a Result as an error."
