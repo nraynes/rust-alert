@@ -4,7 +4,7 @@ version = 4
 
 [[package]]
 name = "alert-test"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
  "rust-alert",
 ]
@@ -29,7 +29,7 @@ dependencies = [
 
 [[package]]
 name = "rust-alert"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
  "proc-macro2",
  "quote",
