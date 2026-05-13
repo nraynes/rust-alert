@@ -57,6 +57,14 @@ pub fn alert(args: TokenStream, input: TokenStream) -> TokenStream {
             }
         }
 
+        impl From<&str> for #struct_name {
+            fn from(value: &str) -> Self {
+                #struct_name {
+                    message: format!("&str: {}", value),
+                }
+            }
+        }
+
         #(#from_impls)*
     };
 

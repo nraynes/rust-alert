@@ -42,6 +42,13 @@ mod tests {
     }
 
     #[test]
+    fn test_from_str() {
+        let error = "test slice error";
+        let alert: Alert = error.into();
+        assert_eq!(alert.message, "&str: test slice error");
+    }
+
+    #[test]
     fn test_display_implementation() {
         let alert = Alert {
             message: "display test".to_string(),
